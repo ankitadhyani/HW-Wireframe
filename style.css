@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: 0 auto; /* center align the body */
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    padding-top: 25px; 
+}
+
+header, nav, footer {
+    height: 70px;
+}
+header {
+    margin-top: 10px;
+}
+nav, footer {
+    margin-top: 20px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    height: 100px;
+    padding-top: 10px;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    width: 450px;
+    margin: 0 auto;
+}
+p {
+    margin-top: 5px;
+}
+section {
+    width: 495px;
+    height: 150px;
+}
+
+/* Class definition for clearfix */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Class definition for "section" */
+.left {
+    float: left;
+    margin-top: 20px;
+    width: 45%;
+    height: 40px;
+}
+
+/* Class definition for article */
+.article {
+    width: 480px;
+    margin: 0 auto;
+}
+
+/* Class definition for aside */
+.right {
+    float: left;
+    margin-top: 20px;
+    width: 45%;
+    margin-left: 10%;
+    height: 150px;
+}
+
+
+/*float, padding, margin, display, overflow, clear and text-align*/
