@@ -1,6 +1,7 @@
+/* HW-WIREFRAME: CSS stylesheet */
+
 * {
     box-sizing: border-box;
-    text-align: center;
 }
 
 body {
@@ -9,43 +10,39 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+
     margin: 0 auto; /* center align the body */
+    text-align: center;
 }
 
 header, nav, section, aside, footer {
     background: #ebebeb;
-    padding-top: 25px; 
-}
 
-header, nav, footer {
-    height: 70px;
-}
-header {
     margin-top: 10px;
-}
-nav, footer {
-    margin-top: 20px;
+    height: 80px;
+    padding-top: 30px;
+    border-radius: 10px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    height: 100px;
-    padding-top: 10px;
+
+    padding: 10px;
+    height: 60%;
+    position: relative;
+    bottom: 5px;
+    border-radius: 10px;
 }
 
 h1, p {
-    color: #777;
+    color: #777; 
     background: #ebebeb;
-    width: 450px;
-    margin: 0 auto;
-}
-p {
-    margin-top: 5px;
-}
-section {
-    width: 495px;
-    height: 150px;
+
+    height: 30px;
+    margin: 0 10px 10px 10px;
+    padding-top: 5px; 
+    border-radius: 10px;
 }
 
 /* Class definition for clearfix */
@@ -55,28 +52,27 @@ section {
     clear: both;
 }
 
-/* Class definition for "section" */
-.left {
+/* section class defined */
+.section {
+    width: 495px;
+    
     float: left;
-    margin-top: 20px;
-    width: 45%;
-    height: 40px;
+    height: 250px;
+    padding-top: 20px;
 }
 
-/* Class definition for article */
+/* article class defined */
 .article {
-    width: 480px;
-    margin: 0 auto;
+    margin: 0px 10px 0px 10px;
+    height: 160px;
+    padding-top: 1px;
 }
 
-/* Class definition for aside */
-.right {
-    float: left;
-    margin-top: 20px;
-    width: 45%;
-    margin-left: 10%;
-    height: 150px;
+/* aside class defined */
+.aside {
+    float: right;
+    width: 47%;
+    height: 250px;
+    padding-top: 20px;
 }
 
-
-/*float, padding, margin, display, overflow, clear and text-align*/
