@@ -21,7 +21,7 @@ header, nav, section, aside, footer {
     margin-top: 10px;
     height: 80px;
     padding-top: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 article {
@@ -32,7 +32,7 @@ article {
     height: 60%;
     position: relative;
     bottom: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 h1, p {
@@ -42,7 +42,7 @@ h1, p {
     height: 30px;
     margin: 0 10px 10px 10px;
     padding-top: 5px; 
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Class definition for clearfix */
@@ -55,7 +55,7 @@ h1, p {
 /* section class defined */
 .section {
     width: 495px;
-    
+
     float: left;
     height: 250px;
     padding-top: 20px;

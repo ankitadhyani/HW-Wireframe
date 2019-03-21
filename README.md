@@ -27,6 +27,9 @@ Following specifications have been implemented in this:-
     2.4. h1 and p
         - color: '#777',
         - background: '#ebebeb'
-        
+
 3. The width of the section should be:
     section: 495px
+
+NOTE: The Wireframe expected sharp corners but to make the corners smooth I 
+changed the "border-radius" property for all the elemets of the html page. 
